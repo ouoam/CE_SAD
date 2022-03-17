@@ -13,7 +13,7 @@ public class Main {
         System.out.println("Height = " + height);
         System.out.println("Area = " + reg1.getArea());
 
-        Rectangle reg2 = new Square(5);
+        Square reg2 = new Square(5);
         reg2.setWidth(width);
         reg2.setHeight(height);
         System.out.println("====   Square  ====");

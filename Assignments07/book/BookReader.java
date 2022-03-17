@@ -1,11 +1,21 @@
 package com.solid.book;
 
-
 import java.util.List;
 
-public class BookReader {
+public class BookReader extends Book implements IBookReader {
+    public BookReader(String title, List<String> pages) {
+        super(title, pages);
+    }
+
+    public void printToScreen() {
+        Book book = this;
+        do {
+            System.out.println(book.getCurrentPage());
+        } while (book.turnToNextPage());
+    }
+
     public static void main(String[] args) {
-        Book book = new Book("Tyland", List.of("I", "moved", "here", "recently", "too"));
+        IBookReader book = new BookReader("Tyland", List.of("I", "moved", "here", "recently", "too"));
         book.printToScreen();
     }
 }
