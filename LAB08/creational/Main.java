@@ -19,7 +19,7 @@ public class Main {
 //        }
 
         // Expected usage
-        BookMetadataExporter exporter = new CSVBookMetadataExporter();
+        BookMetadataExporter exporter = new YAMLBookMetadataExporter();
         exporter.add(TestData.sailboatBook);
         exporter.add(TestData.GoFBook);
         exporter.export("Catalog");

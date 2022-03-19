@@ -8,7 +8,7 @@ import java.util.HashMap;
 
 public class JSONBookMetadataFormatter implements BookMetadataFormatter {
 
-    private ArrayList<HashMap<String, Object>> books;
+    protected ArrayList<HashMap<String, Object>> books;
 
     public JSONBookMetadataFormatter() {
         reset();
