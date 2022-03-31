@@ -1,0 +1,16 @@
+---
+- ISBN: '9780201633610'
+  Authors: 
+  - Erich Gamma
+  - Ralph Johnson
+  - John Vlissides
+  - Richard Helm
+  Title: 'Design Patterns: Elements of Reusable Object-Oriented Software'
+  Publisher: Addison-Wesley
+- ISBN: '9780078022159'
+  Authors: 
+  - Avi Silberschatz
+  - Henry F. Korth
+  - S. Sudarshan
+  Title: Database System Concepts
+  Publisher: McGraw Hill
