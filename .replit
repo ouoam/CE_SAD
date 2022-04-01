@@ -1,0 +1,3 @@
+language = "java17"
+compile = "javac -classpath .:target/dependency/*:./LAB08/lib/* -d . $(find . -type f -name '*.java')"
+run = "java -classpath .:target/dependency/*:./LAB08/lib/* edu.parinya.softarchdesign.behavioral.Main"
