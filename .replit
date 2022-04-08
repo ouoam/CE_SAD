@@ -1,3 +1,8 @@
-language = "java17"
-compile = "javac -classpath .:target/dependency/*:./LAB08/lib/* -d . $(find . -type f -name '*.java')"
-run = "java -classpath .:target/dependency/*:./LAB08/lib/* edu.parinya.softarchdesign.behavioral.Main"
+language = "java11"
+#compile = "javac -classpath .:target/dependency/*:./LAB08/lib/* -d . $(find . -type f -name '*.java')"
+#run = "java -classpath .:target/dependency/*:./LAB08/lib/* edu.parinya.softarchdesign.behavior2.Main"
+
+compile = "javac -classpath .:target/dependency/* -d . $(find ./LAB11 -type f -name '*.java')"
+run = "java -classpath .:target/dependency/* edu.parinya.softarchdesign.behavior2.Main"
+
+hidden = ["**/*.class"]
